@@ -4,7 +4,6 @@ aioredis==2.0.0
 alabaster==0.7.8
 async-timeout==3.0.1
 attrs==21.2.0
-ayatana-settings==21.1.28
 Babel==2.8.0
 bcrypt==3.1.7
 beautifulsoup4==4.9.3
