@@ -2,7 +2,6 @@ aiogram==2.15
 aiohttp==3.7.4.post0
 aioredis==2.0.0
 alabaster==0.7.8
-apturl==0.5.2
 async-timeout==3.0.1
 attrs==21.2.0
 ayatana-settings==21.1.28
