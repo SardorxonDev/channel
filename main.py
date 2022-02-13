@@ -2,7 +2,7 @@ import logging
 from aiogram import Bot, Dispatcher, executor, types
 
 
-bot_token = "5132672804:AAEKdZZktEGWrqHCjEA6cbC26h_pTM2XO5U"
+bot_token = "5132672804:AAHbr7Zzxae56zIsi7bAjhiSRG0W2y9OAWE"
 
 
 bot = Bot(token=bot_token) #Take token from secret variable in env
