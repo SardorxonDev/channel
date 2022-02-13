@@ -2,7 +2,7 @@
 
 import telebot
 import random 
-
+from telebot import types
 #from YONR import YONNR
 
 
