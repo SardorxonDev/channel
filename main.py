@@ -2,7 +2,7 @@ import logging
 from aiogram import Bot, Dispatcher, executor, types
 from os import getenv
 
-bot_token = getenv("BOT_TOKEN")
+bot_token = getenv("5132672804:AAEKdZZktEGWrqHCjEA6cbC26h_pTM2XO5U")
 if not bot_token:
     exit("Error: no token provided")
 bot = Bot(token=bot_token) #Take token from secret variable in env
