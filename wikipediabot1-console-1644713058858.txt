@@ -1,0 +1,26 @@
+Collecting wikipedia
+  Downloading wikipedia-1.4.0.tar.gz (27 kB)
+  Preparing metadata (setup.py) ... - done
+Collecting beautifulsoup4
+  Downloading beautifulsoup4-4.10.0-py3-none-any.whl (97 kB)
+     |███▍                            | 10 kB 19.3 MB/s eta 0:00:01     |██████▊                         | 20 kB 23.0 MB/s eta 0:00:01     |██████████                      | 30 kB 27.4 MB/s eta 0:00:01     |█████████████▌                  | 40 kB 30.9 MB/s eta 0:00:01     |████████████████▉               | 51 kB 35.3 MB/s eta 0:00:01     |████████████████████▏           | 61 kB 38.4 MB/s eta 0:00:01     |███████████████████████▌        | 71 kB 40.1 MB/s eta 0:00:01     |███████████████████████████     | 81 kB 42.9 MB/s eta 0:00:01     |██████████████████████████████▎ | 92 kB 45.1 MB/s eta 0:00:01     |████████████████████████████████| 97 kB 13.4 MB/s            
+Collecting requests<3.0.0,>=2.0.0
+  Downloading requests-2.27.1-py2.py3-none-any.whl (63 kB)
+     |█████▏                          | 10 kB 29.4 MB/s eta 0:00:01     |██████████▍                     | 20 kB 37.3 MB/s eta 0:00:01     |███████████████▋                | 30 kB 46.6 MB/s eta 0:00:01     |████████████████████▊           | 40 kB 50.7 MB/s eta 0:00:01     |██████████████████████████      | 51 kB 53.6 MB/s eta 0:00:01     |███████████████████████████████▏| 61 kB 58.5 MB/s eta 0:00:01     |████████████████████████████████| 63 kB 4.6 MB/s             
+Requirement already satisfied: idna<4,>=2.5 in ./.heroku/python/lib/python3.9/site-packages (from requests<3.0.0,>=2.0.0->wikipedia) (3.3)
+Requirement already satisfied: certifi>=2017.4.17 in ./.heroku/python/lib/python3.9/site-packages (from requests<3.0.0,>=2.0.0->wikipedia) (2021.10.8)
+Collecting urllib3<1.27,>=1.21.1
+  Downloading urllib3-1.26.8-py2.py3-none-any.whl (138 kB)
+     |██▍                             | 10 kB 30.6 MB/s eta 0:00:01     |████▊                           | 20 kB 37.3 MB/s eta 0:00:01     |███████                         | 30 kB 44.7 MB/s eta 0:00:01     |█████████▌                      | 40 kB 49.0 MB/s eta 0:00:01     |███████████▉                    | 51 kB 51.2 MB/s eta 0:00:01     |██████████████▏                 | 61 kB 55.0 MB/s eta 0:00:01     |████████████████▌               | 71 kB 56.9 MB/s eta 0:00:01     |███████████████████             | 81 kB 59.0 MB/s eta 0:00:01     |█████████████████████▎          | 92 kB 60.3 MB/s eta 0:00:01     |███████████████████████▋        | 102 kB 60.1 MB/s eta 0:00:01     |██████████████████████████      | 112 kB 60.1 MB/s eta 0:00:01     |████████████████████████████▍   | 122 kB 60.1 MB/s eta 0:00:01     |██████████████████████████████▊ | 133 kB 60.1 MB/s eta 0:00:01     |████████████████████████████████| 138 kB 60.1 MB/s            
+Requirement already satisfied: charset-normalizer~=2.0.0 in ./.heroku/python/lib/python3.9/site-packages (from requests<3.0.0,>=2.0.0->wikipedia) (2.0.12)
+Collecting soupsieve>1.2
+  Downloading soupsieve-2.3.1-py3-none-any.whl (37 kB)
+Building wheels for collected packages: wikipedia
+  Building wheel for wikipedia (setup.py) ... - \ done
+  Created wheel for wikipedia: filename=wikipedia-1.4.0-py3-none-any.whl size=11696 sha256=2be0fc954eca2c7459678bdadcd4e41ee09f8095795f983e7d310f759c7f0b8e
+  Stored in directory: /app/.cache/pip/wheels/c2/46/f4/caa1bee71096d7b0cdca2f2a2af45cacf35c5760bee8f00948
+Successfully built wikipedia
+Installing collected packages: urllib3, soupsieve, requests, beautifulsoup4, wikipedia
+Successfully installed beautifulsoup4-4.10.0 requests-2.27.1 soupsieve-2.3.1 urllib3-1.26.8 wikipedia-1.4.0
+WARNING: You are using pip version 21.3.1; however, version 22.0.3 is available.
+You should consider upgrading via the '/app/.heroku/python/bin/python -m pip install --upgrade pip' command.
