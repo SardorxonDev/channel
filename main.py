@@ -1,15 +1,15 @@
 import requests
-import os
 import telebot
 
-bot = telebot.TeleBot("5048688041:AAHnrcDEsGTBr-PLQmoEd2AG92lcIpyE9_Y")
+token = "5205831766:AAEndNC2J8Kg_V_VEYBn5regsE1A9PfA2DU"
+bot = telebot.TeleBot(token)
 
 @bot.message_handler(commands=["start"])
 def start(message):
-    bot.send_message(message.chat.id,f"Hi\n===========\nWellcome To YouTube Download Bot\nSend Link  Now\n===========\nBy : @trprogram")
+    bot.send_message(message.chat.id,f"<strong>Hi,\n== === ==\nWellcome Bro Send Number From 1 To 100 To Get Quran Sora.\n== === ==\nBy : @trprogram </strong>",parse_mode="html")
 @bot.message_handler(func=lambda m:True)
-def send(message):
-    url = requests.get(f"https://timoa.ml/API/youtube.php?url={message.text}").json()
-    y = url["result"]
-    bot.send_video(message.chat.id,y,caption="Done")
-bot.polling()
+def so(message):
+    bot.send_message(message.chat.id,f"<strong>Wait.. </strong>",parse_mode="html")
+    url = requests.get(f"https://timoa.ml/API/quran.php?n={message.text}&type=url").json()["url"]
+    bot.send_photo(message.chat.id,url,caption=f"<strong> Quran Sora\nNumber : {message.text}</strong>",parse_mode="html")
+bot.polling() 
