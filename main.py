@@ -20,7 +20,7 @@ async def cmd_start(message: types.Message):
 
 
 async def cheking(message: types.Message):
-    ans = await dp.bot.get_chat_member(-1001186762862, message.from_user.id)
+    ans = await dp.bot.get_chat_member(-1001681894880, message.from_user.id)
     if 'user not found' not in ans:
         await message.answer('лично вы зарегистрированны у наших спонсоров. Вот вам ссылка приглашение LInk')
     else:
